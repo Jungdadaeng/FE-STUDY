@@ -1,10 +1,15 @@
 
 import './App.css';
+import Header from './components/Header';
+import Category from './components/Category';
+import Contents from './components/Contents';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Category />
+      <Contents />
+    </>
   );
 }
 
